@@ -1,5 +1,6 @@
 ---
 icon: asterisk
+description: To configure the network settings in Proxmox for remote access.
 ---
 
 # Network

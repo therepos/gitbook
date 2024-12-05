@@ -1,5 +1,6 @@
 ---
 icon: asterisk
+description: To passthrough dedicated graphics card to a VM.
 ---
 
 # GPU Passthrough
