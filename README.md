@@ -1,3 +1,6 @@
+---
+description: Running a homelab with Proxmox.
+---
+
 # About
 
-Running a homelab with Proxmox.

@@ -5,6 +5,8 @@ description: To passthrough dedicated graphics card to a VM.
 
 # GPU Passthrough
 
+***
+
 This page is intended to document the steps for NVIDIA GPU passthrough.
 
 ```bash

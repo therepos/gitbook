@@ -5,6 +5,8 @@ description: To configure the network settings in Proxmox for remote access.
 
 # Network
 
+***
+
 When using third-party tunnel for remote access (e.g. Cloudflare), configure your router DNS resolver to a public DNS. This is to avoid conflict between the default DNS set by the ISP and the public DNS used by the tunnel.
 
 #### Public DNS
