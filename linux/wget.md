@@ -1,8 +1,8 @@
 ---
-description: Quick reference on common Linux commands.
+description: To download and execute files.
 ---
 
-# Linux Commands
+# wget
 
 ***
 
