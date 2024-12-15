@@ -10,4 +10,4 @@
 
 ## Linux
 
-* [wget](linux/wget.md)
+* [cheatsheet](linux/cheatsheet.md)
