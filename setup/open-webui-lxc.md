@@ -4,7 +4,7 @@ description: To setup Ollama with Open WebUI LXC
 
 # Open WebUI LXC
 
-## 1/ Change LXC default port
+## Change LXC default port
 
 ### **Identify the process using port 8080**
 
@@ -88,7 +88,7 @@ pct stop 100
 pct start 100
 ```
 
-### Update the Python path to include the correct directory.
+### Update the path to the correct directory
 
 Set the Python path manually by running the following command:
 
