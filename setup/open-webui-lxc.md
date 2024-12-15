@@ -110,3 +110,31 @@ Run the application manually again after setting the `PYTHONPATH`:
 http://<ip-address>:4010
 ```
 
+### Modify the startup script
+
+Locate the startup script.
+
+```bash
+find / -name "*start*"
+```
+
+{% code title="example output" %}
+```bash
+root@openwebui:~# find / -name "*start*"
+/opt/open-webui/backend/start_windows.bat
+/opt/open-webui/backend/start.sh
+/opt/open-webui/build/_app/immutable/entry/start.BJ-LQI5r.js
+```
+{% endcode %}
+
+Change the port configuration in the startup script.
+
+```bash
+nano /opt/open-webui/backend/start.sh
+```
+
+Start the application.
+
+```bash
+/opt/open-webui/backend/start.sh
+```
