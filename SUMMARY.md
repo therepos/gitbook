@@ -9,7 +9,7 @@
 * [GPU Passthrough](setup/gpu-passthrough.md)
 * [Open WebUI LXC](setup/open-webui-lxc.md)
 * [Test : GPU on LXC](setup/test-gpu-on-lxc.md)
-* [Test : Expand ZFS Disk](setup/test-expand-zfs-disk.md)
+* [ZFS Disk](setup/zfs-disk.md)
 
 ## Linux
 
