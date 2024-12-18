@@ -4,12 +4,11 @@ description: To expand ZFS partition.
 
 # Disk Partitions
 
+***
+
 ### **Resize Partitions**
 
-Use the `parted` tool to resize the partitions. \
-Follow these steps for each disk (`nvme1n1` and `nvme0n1`):
-
-* Open `parted` for the disk:
+* Use the `parted` tool to resize the partitions. Open `parted` for the disk:
 
 ```bash
 bashCopy codeparted /dev/nvme1n1
@@ -21,13 +20,11 @@ bashCopy codeparted /dev/nvme1n1
 bashCopy codeprint
 ```
 
-* Resize the partition (`p3`):
+* Identify the partition number (e.g. `p3`) to resize it to use all remaining space on the disk.&#x20;
 
 ```bash
 bashCopy coderesizepart 3 100%
 ```
-
-This resizes the third partition to use all remaining space on the disk. Type `Yes` if prompted for confirmation.
 
 * Exit `parted`:
 
@@ -45,7 +42,7 @@ bashCopy codeparted /dev/nvme0n1
 
 ### **Expand the ZFS Pool**
 
-Run the following command to grow the `rpool` and make it use the newly resized partitions:
+* Run the following command to grow the `rpool` and make it use the newly resized partitions:
 
 ```bash
 bashCopy codezpool online -e rpool nvme-eui.ace42e003554b1072ee4ac0000000001-part3
@@ -54,7 +51,7 @@ zpool online -e rpool nvme-eui.0000000624098476caf25b0320000086-part3
 
 ### **Verify the Expansion**
 
-After running the above commands, check the pool's status to confirm the expanded capacity:
+* After running the above commands, check the pool's status to confirm the expanded capacity:
 
 ```bash
 bashCopy codezpool list
