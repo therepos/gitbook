@@ -54,4 +54,34 @@ curl -fsSL https://raw.githubusercontent.com/therepos/proxmox/main/installers/in
 ```
 {% endcode %}
 
-* Install [Cloudflared](https://tteck.github.io/Proxmox/#cloudflared-lxc).&#x20;
+* Install Portainer.
+
+{% code overflow="wrap" %}
+```bash
+wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-portainer.sh | bash
+```
+{% endcode %}
+
+* Install [Cloudflared](https://tteck.github.io/Proxmox/#cloudflared-lxc).
+
+
+
+***
+
+### Utilities
+
+* List all containers, virtual machines, services and dockers.
+
+{% code overflow="wrap" %}
+```bash
+wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.sh | bash
+```
+{% endcode %}
+
+* Export system information.
+
+{% code overflow="wrap" %}
+```bash
+wget --no-cache -qLO- https://raw.githubusercontent.com/therepos/proxmox/main/util/get-sysinfo.sh | bash
+```
+{% endcode %}
