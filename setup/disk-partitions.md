@@ -2,7 +2,7 @@
 description: To expand ZFS partition.
 ---
 
-# ZFS Disk
+# Disk Partitions
 
 ### **Resize Partitions**
 
