@@ -30,6 +30,12 @@ wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/ins
 ```
 {% endcode %}
 
+
+
+***
+
+### Essentials
+
 * Install Nvidia Driver.
 
 {% code overflow="wrap" %}
@@ -61,6 +67,12 @@ curl -fsSL https://raw.githubusercontent.com/therepos/proxmox/main/installers/in
 wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-portainer.sh | bash
 ```
 {% endcode %}
+
+
+
+***
+
+### Optional
 
 * Install [Cloudflared](https://tteck.github.io/Proxmox/#cloudflared-lxc).
 
