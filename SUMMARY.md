@@ -10,6 +10,7 @@
 * [GPU Passthrough](setup/gpu-passthrough.md)
 * [Open WebUI LXC](setup/open-webui-lxc.md)
 * [Test : GPU on LXC](setup/test-gpu-on-lxc.md)
+* [FOSS](setup/foss.md)
 
 ## Linux
 
