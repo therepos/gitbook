@@ -44,19 +44,19 @@ wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/ins
 ```
 {% endcode %}
 
-* Install Nvidia Container Toolkit.
-
-{% code overflow="wrap" %}
-```bash
-wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-nvidiact.sh | bash
-```
-{% endcode %}
-
 * Install Docker.
 
 {% code overflow="wrap" %}
 ```bash
 curl -fsSL https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-docker.sh | bash
+```
+{% endcode %}
+
+* Install Nvidia Container Toolkit.
+
+{% code overflow="wrap" %}
+```bash
+wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-nvidiact.sh | bash
 ```
 {% endcode %}
 
