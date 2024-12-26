@@ -26,7 +26,7 @@ description: To setup Proxmox VE for the first time on a local machine.
 
 {% code overflow="wrap" fullWidth="false" %}
 ```bash
-wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-postpve.sh | bash
+bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-postpve.sh)"
 ```
 {% endcode %}
 
