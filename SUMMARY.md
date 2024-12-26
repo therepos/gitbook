@@ -11,6 +11,7 @@
 * [Open WebUI LXC](setup/open-webui-lxc.md)
 * [Test : GPU on LXC](setup/test-gpu-on-lxc.md)
 * [FOSS](setup/foss.md)
+* [NVIDIA](setup/nvidia.md)
 
 ## Linux
 
