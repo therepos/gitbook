@@ -40,7 +40,7 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/in
 
 {% code overflow="wrap" %}
 ```bash
-wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-nvidiadriver.sh | bash
+bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-nvidiadriver.sh)"
 ```
 {% endcode %}
 
@@ -48,7 +48,7 @@ wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/ins
 
 {% code overflow="wrap" %}
 ```bash
-curl -fsSL https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-docker.sh | bash
+bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-docker.sh)"
 ```
 {% endcode %}
 
@@ -56,7 +56,7 @@ curl -fsSL https://raw.githubusercontent.com/therepos/proxmox/main/installers/in
 
 {% code overflow="wrap" %}
 ```bash
-wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-nvidiact.sh | bash
+bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-nvidiact.sh)"
 ```
 {% endcode %}
 
@@ -64,7 +64,7 @@ wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/ins
 
 {% code overflow="wrap" %}
 ```bash
-wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/installers/install-portainer.sh | bash
+bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-portainer.sh)"
 ```
 {% endcode %}
 
@@ -86,7 +86,7 @@ wget --no-cache -qO- https://raw.githubusercontent.com/therepos/proxmox/main/ins
 
 {% code overflow="wrap" %}
 ```bash
-wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.sh | bash
+bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.sh)"
 ```
 {% endcode %}
 
@@ -94,6 +94,6 @@ wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.
 
 {% code overflow="wrap" %}
 ```bash
-wget --no-cache -qLO- https://raw.githubusercontent.com/therepos/proxmox/main/util/get-sysinfo.sh | bash
+bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/get-sysinfo.sh)"
 ```
 {% endcode %}
