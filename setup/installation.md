@@ -33,7 +33,7 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/in
 * Check and format disk drives.
 
 {% code overflow="wrap" %}
-```
+```bash
 bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/formatdisk.sh)"
 ```
 {% endcode %}
