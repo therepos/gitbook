@@ -58,14 +58,6 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/in
 ```
 {% endcode %}
 
-* Install Nvidia Container Toolkit.
-
-{% code overflow="wrap" %}
-```bash
-bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-nvidiact.sh)"
-```
-{% endcode %}
-
 * Install Portainer.
 
 {% code overflow="wrap" %}
