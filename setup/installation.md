@@ -95,3 +95,12 @@ bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.
 bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/get-sysinfo.sh)"
 ```
 {% endcode %}
+
+
+
+***
+
+References
+
+* [GitHub therepos](https://github.com/therepos/proxmox)
+* [Proxmox VE Helper Scripts](https://tteck.github.io/Proxmox/)
