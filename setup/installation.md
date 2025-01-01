@@ -26,7 +26,7 @@ description: To setup Proxmox VE for the first time on a local machine.
 
 {% code overflow="wrap" fullWidth="false" %}
 ```bash
-bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-postpve.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-postpve.sh)"
 ```
 {% endcode %}
 
@@ -34,7 +34,7 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/in
 
 {% code overflow="wrap" %}
 ```bash
-bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/formatdisk.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/formatdisk.sh)"
 ```
 {% endcode %}
 
@@ -46,7 +46,7 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/ut
 
 {% code overflow="wrap" %}
 ```bash
-bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-nvidiadriver.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-nvidiadriver.sh)"
 ```
 {% endcode %}
 
@@ -54,7 +54,7 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/in
 
 {% code overflow="wrap" %}
 ```bash
-bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-dockerhost.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-dockerhost.sh)"
 ```
 {% endcode %}
 
@@ -62,7 +62,7 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/in
 
 {% code overflow="wrap" %}
 ```bash
-bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-portainer.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/installers/install-portainer.sh)"
 ```
 {% endcode %}
 
@@ -84,7 +84,7 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/in
 
 {% code overflow="wrap" %}
 ```bash
-bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.sh)"
 ```
 {% endcode %}
 
@@ -92,6 +92,6 @@ bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/ut
 
 {% code overflow="wrap" %}
 ```bash
-bash -c "$(wget --no-cache -qLO- https://github.com/therepos/proxmox/raw/main/util/get-sysinfo.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/get-sysinfo.sh)"
 ```
 {% endcode %}
