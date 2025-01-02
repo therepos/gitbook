@@ -38,6 +38,8 @@ bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/formatdi
 ```
 {% endcode %}
 
+* Install [Filebrowser ](https://tteck.github.io/Proxmox/#file-browser)for navigating files.
+
 ***
 
 ### Essentials
@@ -72,7 +74,7 @@ bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/installers/in
 
 ### Optional
 
-* Install [Cloudflared](https://tteck.github.io/Proxmox/#cloudflared-lxc).
+* Install [Cloudflared](https://tteck.github.io/Proxmox/#cloudflared-lxc) for remote access.
 
 
 
