@@ -11,3 +11,7 @@ description: To solve with Free Open-Source Software.
 ### Audio
 
 * [MeTube](https://github.com/alexta69/metube)&#x20;
+
+### Photos
+
+* [Immich](https://immich.app/docs/install/docker-compose/)
