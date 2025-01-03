@@ -128,5 +128,5 @@ bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/zfsbacku
 
 References
 
-* [GitHub therepos](https://github.com/therepos/proxmox)
+* [GitHub therepos](https://github.com/therepos/proxmox/tree/main/installers)
 * [Proxmox VE Helper Scripts](https://tteck.github.io/Proxmox/)
