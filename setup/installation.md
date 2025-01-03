@@ -86,7 +86,7 @@ bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/installers/in
 
 {% code overflow="wrap" %}
 ```bash
-bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/listworkloads.sh)"
 ```
 {% endcode %}
 
@@ -94,7 +94,31 @@ bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/list-ct.
 
 {% code overflow="wrap" %}
 ```bash
-bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/get-sysinfo.sh)"
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/getsysinfo.sh)"
+```
+{% endcode %}
+
+* Setup Samba share.
+
+{% code overflow="wrap" %}
+```bash
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/sambashare.sh)"
+```
+{% endcode %}
+
+* Mount and unmount drive.
+
+{% code overflow="wrap" %}
+```bash
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/mountdrive.sh)"
+```
+{% endcode %}
+
+* Backup ZFS to secondary drive.
+
+{% code overflow="wrap" %}
+```bash
+bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/util/zfsbackup.sh)"
 ```
 {% endcode %}
 
